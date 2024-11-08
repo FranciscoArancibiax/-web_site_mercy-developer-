@@ -1,0 +1,84 @@
+/* Contenedor principal */
+.contact-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  color: #007bff;
+  margin-top: 20px;
+}
+
+/* Oculta los íconos sociales por defecto */
+.social-icons {
+  display: flex;
+  gap: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Estilos para los iconos individuales */
+.social-icon {
+  font-size: 24px;
+  color: #007bff;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+  color: #0056b3;
+}
+
+/* Muestra los iconos cuando el puntero está en el contenedor */
+.contact-container:hover .social-icons {
+  opacity: 1;
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #007bff; /* azul */
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #007bff; /* Línea azul */
+  padding-bottom: 5px;
+}
+
+/* Estilo para el subtítulo principal (H2) */
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ff8c00; /* Naranja */
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #ff8c00; /* Línea fina naranja */
+  padding-bottom: 3px;
+}
+
+/* Estilo para el subtítulo secundario (H4) */
+h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #50c878; /* Verde esmeralda */
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+  border-bottom: 1px dashed #50c878; /* Línea verde discontinua */
+  padding-bottom: 2px;
+}
+/* Estilo para el subtítulo terciario (H5) */
+h5 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #000; /* Negro */
+  margin-bottom: 8px;
+  letter-spacing: 0.3px;
+}
+
+/* Estilo para los párrafos (P) */
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #000; /* Negro */
+  margin-bottom: 10px;
+}

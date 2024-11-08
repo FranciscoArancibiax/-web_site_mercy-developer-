@@ -1,0 +1,106 @@
+/* portada.component.css */
+.portada-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.portada-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.portada-titulo {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.portada-subtitulo {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5em;
+  color: #ddd;
+}
+
+/* Centrar las imágenes en el carrusel */
+.carousel-item img {
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+/* Cambiar el color de los íconos de navegación a negro */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  border-radius: 50%;
+  padding: 10px; /* Opcional: agrega un espacio alrededor del icono */
+}
+
+/* Asegura que el submenú aparezca al lado de la opción principal en el menú desplegable */
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -5px;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #007bff; /* azul */
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #007bff; /* Línea azul */
+    padding-bottom: 5px;
+}  
+
+/* Estilo para el subtítulo principal (H2) */
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #ff8c00; /* Naranja */
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #ff8c00; /* Línea fina naranja */
+    padding-bottom: 3px;
+}
+  
+/* Estilo para el subtítulo secundario (H4) */
+h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #50c878; /* Verde esmeralda */
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+    padding-bottom: 2px;
+}
+
+/* Estilo para el subtítulo terciario (H5) */
+h5 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #000; /* Negro */
+  margin-bottom: 8px;
+  letter-spacing: 0.3px;
+}
+
+/* Estilo para los párrafos (P) */
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #000; /* Negro */
+  margin-bottom: 10px;
+}
